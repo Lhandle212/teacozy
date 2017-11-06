@@ -14,8 +14,8 @@ body {
 }
 
 header {
-  width: 750px;
-  position: 1;
+  width: 100%;
+  position: fixed;
   z-index: 1;
   height: 69px;
   background-color: black;
@@ -37,6 +37,7 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
 a {
   color: seashell;
   text-decoration: underline;
@@ -53,21 +54,30 @@ div {
   display: block;
 }
 
-h2, h3, h4 {
-  margin: 0;
-  padding: 10px;
-}
-
 #mission {
   height:700px;
   padding-top: 70px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
 
+#mission .content {
+  background-color: black;
+  width: 1200px;
+  margin: auto;
+  height: 104px;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
 h2 {
   display: block;
   font-size: 33px;
   font-weight: bold;
+  width: 1180px;
+  height: 38px;
 }
 
 h3 {
@@ -79,6 +89,8 @@ h3 {
 h4 {
   display: block;
   font-weight: bold;
+  height: 26px;
+  width: 1200px;
 }
 
 h5 {
@@ -94,8 +106,9 @@ p {
 #store {
   height: 700px;
   width: 1000px;
-  margin: auto;
+  margin: 0 100px;
   padding-top: 70px;
+  padding-bottom: 60px;
 }
 
 .item {
@@ -116,6 +129,7 @@ p {
 }
 
 #locations {
+  width: 1200px;
   height: 500px;
   padding-top: 70px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
@@ -126,8 +140,22 @@ p {
   width: 1100px;
 }
 
+.location {
+  width: 280px;
+  height: 259px;
+  opacity: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
 .flex-container .locations {
   padding-top: 5px;
+  height: 289px;
+  width: 1100px;
 }
 
 #contact {
