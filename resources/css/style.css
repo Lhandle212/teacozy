@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  font-family: Helvetica sans-serif;
+  font-family: Helvetica;
   color: seashell;
   background-color: black;
   font-size: 22px;
   text-align: center;
+  opacity: 0.9;
 }
 
 .flex-container {
@@ -56,6 +57,7 @@ div {
 
 #mission {
   height:700px;
+  width: 1200px;
   padding-top: 70px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
@@ -106,7 +108,7 @@ p {
 #store {
   height: 700px;
   width: 1000px;
-  margin: 0 100px;
+  margin: auto;
   padding-top: 70px;
   padding-bottom: 60px;
 }
@@ -117,6 +119,7 @@ p {
 
 .item img {
   height: 200px;
+  width: 300px;
   margin: 10px;
   display: block;
 }
@@ -141,8 +144,7 @@ p {
 }
 
 .location {
-  width: 280px;
-  height: 259px;
+  flex-basis: 280px;
   opacity: 1;
   background-color: black;
   display: flex;
