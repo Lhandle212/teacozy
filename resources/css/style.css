@@ -69,32 +69,9 @@ div {
   height: 104px;
 }
 
-h2, h3, h4 {
-  margin: 0;
-  padding: 10px;
-}
-
-h3 {
-  display: block;
-  font-size: 25.74px;
-  font-weight: bold;
-}
-
-h4 {
-  display: block;
-  font-weight: bold;
-  height: 26px;
-  width: 1200px;
-}
-
-h5 {
-  display: block;
-  font-size: 18.26px;
-  font-weight: bold;
-}
-
-p {
-  display: block;
+.content h2, .content h4 {
+  margin: 10px;
+  text-align: center;
 }
 
 #store {
